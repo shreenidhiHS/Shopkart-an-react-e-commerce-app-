@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$height: 40px;
+
+
+
+.add-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+
+
+.form{
+    display:flex;
+    justify-content: flex-start;
+    
+
+}
+.p-name{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    height: $height;
+    
+
+}
+.p-price{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+    height: $height;
+    padding: 10px;
+    
+
+}
+.p-description{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+    height: 70px;
+    
+    padding: 10px;
+    
+
+}
+.p-image{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    
+
+}
+.p-category{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+    height: $height;
+    padding: 10px;
+    
+
+}
+.submitbtn{
+    margin-top: 10%;
+    border-radius: 8px;
+    padding: 10px 12px;
+    
+
+.submitbtn:hover{
+        cursor: pointer;
+        scale: 0.9%;
+        transition: 0.2s ease-in-out;
+        
+        }
+}
+.added-text{
+    display: flex;
+    justify-content: center;
+    
+    font-size: 1rem;
+}
+.form-label{
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.danger{
+    color: red;
+}

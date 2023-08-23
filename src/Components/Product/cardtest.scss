@@ -1,0 +1,33 @@
+.product-card{
+    display: grid;
+    grid-template: 650px / auto auto auto auto auto;
+    gap: 10px;
+    
+    margin-top: 10px;
+    border: 2px black;
+    
+   
+    
+
+}
+.productCard{
+    height: 100%;
+    padding: 20px;
+    height: 700px;
+    width: 350px;
+    
+    
+}
+.productCard:hover{
+    scale: 0.9;
+    box-shadow: 0px 0px 20px 2px black;
+    transition: 0.2s ease-in-out;
+}
+.addButton{
+    background-color: red;
+}
+.cardImage{
+    height: 22rem;
+    width: 5%;
+}
+

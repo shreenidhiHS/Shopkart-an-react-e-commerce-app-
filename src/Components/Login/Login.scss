@@ -1,0 +1,64 @@
+@import "../variable.scss";
+
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin: 80px;
+    margin-top: 150px;
+    height: auto;
+    
+    padding: 20px;
+
+    .login-head{
+        font-size: 2.2rem;
+        color: black;
+    }
+    .login-h2{
+        font-size: 1.2rem;
+        color: black;
+    }
+    .form-ele{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .email{
+        height:50px;
+        width: 100%;
+        border: transparent;
+        font-size: 20px;
+        background: transparent;
+        border-radius: 2px;
+    }
+    .password{
+        @extend .email
+
+    }
+    .login-btn{
+        height: 40px;
+        width: 100%;
+        border-radius: 20px;
+        border: white;
+        margin-top: 30px;
+
+
+    }
+    .login-btn:hover{
+        scale: 0.9;
+        transition: 0.2s ease-in-out;
+        cursor: pointer;
+
+    }
+    .link{
+        color: black;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    .danger{
+        color: red;
+    }
+
+}
